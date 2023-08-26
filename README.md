@@ -1,1 +1,1 @@
-# PROB1
+# PROB1 แปลงค่าพิกัดและ scale factor
