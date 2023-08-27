@@ -184,7 +184,7 @@ print(f"DataFrame exported to {excel_filename}")
 def utm2lla(E,N,h,zone):
     P = pyproj.Proj(proj = 'utm',zone = zone, ellps = 'WGS84')
     La, Lo, hi = P(E,N,inverse = True)
-    return E, N, hi
+    return la, lo, hi
 
 def lla2xyz(La,Lo,Hi):
     # ความสัมพันธ์ของ Geodetic และ ECEF
